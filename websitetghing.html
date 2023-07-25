@@ -6,8 +6,9 @@
         <style>
         .container {
             position: relative;
-            width: auto;
-            
+            width: 1225px;
+            margin-left:auto;
+            margin-right:auto;
         }
         .title{
             text-align: center;
@@ -24,17 +25,29 @@
             margin: 50px
         }
         .p{
+
+            font-size: 25px;
+            text-align: center;
+            margin: 10px;
+
+        }
+        .text{
+            position: absolute;
             font-size: 25px;
             text-align: center;
             margin: 10px;
             top: 50%;
             left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            color: white;
         }
         .image{
             display: block;
             margin-left:auto;
             margin-right:auto;
-            width: 600px;
+            width: 1200px;
             height:auto;
             border: solid rgb(0,0,0) 10px;
         }
@@ -44,16 +57,17 @@
             bottom: 0;
             left: 0;
             right: 0;
-            width: auto;
+            width: 1200px;
+            height:auto;
             opacity: 0;
             transition: .5s ease;
-            background-color: #382c2c;
+            background-color: #5a5a5a;
             margin-left:auto;
             margin-right:auto;
         }
 
         .container:hover .overlay {
-            opacity: 0.6;
+            opacity: 0.85;
         }
         </style>
     </head>
@@ -62,7 +76,7 @@
         <h1 class="title">Top 5 Most Interesting Websites You Should Kill Time With</h1>
         
         <ul>
-            <li>sometimesresometimesblue</li>
+            <li>sometimesredsometimesblue</li>
             <li>riverstyx</li>
             <li>patatap</li>
             <li>little alchemy 2</li>
@@ -81,30 +95,73 @@
         <div class = "container">
             <p><img class = "image" src="https://swipefile.com/wp-content/uploads/2023/05/neal-fun.jpg" alt = "List of interesting games on the neal.fun home page"></p>
             <div class = "overlay">
-                <div class = "p">hi</div>
+                <div class = "text">hi</div>
             </div>
         </div>
         <h3 class = "h3">What is Neal.fun?</h3>
         <p class = "p">Neal.fun is a small experimental website made by Neal Argawal.</p>
 
         <h2 class = "h2">2. Little Alchemy 2</h2>
-        <p><img class = "image" src="https://littlealchemy2.com/static/img/little-alchemy-2-fb-thumbnail.jpg" alt = "Little Alchemy 2 Banner"></p>
+        <div class = "container">
+            <p><img class = "image" src="https://littlealchemy2.com/static/img/little-alchemy-2-fb-thumbnail.jpg" alt = "Little Alchemy 2 Banner"></p>
+            <div class = "overlay">
+                <div class = "text">hi</div>
+            </div>
+        </div>
         <h3 class = "h3">What is Little Alchemy 2?</h3>
         <p class = "p">Little Alchemy 2 is a crafting educational game website made by Recloak.</p>
 
         <h2 class = "h2">3. Nicky Case Games</h2>
-        <p><img class = "image" src="https://ncase.me/sharing/thumb.png" alt = "Nicky Case Profile Picture"></p>
+        <div class = "container">
+            <p><img class = "image" src="https://ncase.me/sharing/thumb.png" alt = "Nicky Case Profile Picture"></p>
+            <div class = "overlay">
+                <div class = "text">hi</div>
+            </div>
+        </div>
         <h3 class = "h3">Who is Nicky Case, and what do they do?</h3>
         <p class = "p">Nicky is a game developer and theorist, who develops interactive educational games in various subjects</p>
 
         <h2 class = "h2">4. The Useless Web</h2>
-        <p><img class = "image" src="https://cdn.vox-cdn.com/thumbor/K244r0st_uh8fTUg1bwrx4y6A2g=/0x0:641x427/1400x1050/filters:focal(320x213:321x214)/cdn.vox-cdn.com/uploads/chorus_asset/file/14137032/capture_28.1419979014.png" alt = "The Useless Web home page"></p>
+        <div class = "container">
+            <p><img class = "image" src="https://cdn.vox-cdn.com/thumbor/K244r0st_uh8fTUg1bwrx4y6A2g=/0x0:641x427/1400x1050/filters:focal(320x213:321x214)/cdn.vox-cdn.com/uploads/chorus_asset/file/14137032/capture_28.1419979014.png" alt = "The Useless Web home page"></p>
+            <div class = "overlay">
+                <div class = "text">hi</div>
+            </div>
+        </div>
         <h3 class = "h3">What is The Useless Web?</h3>
         <p class = "p">It's a website that sends the user to unique websites that serves pointless yet interesting purposes.</p>
 
         <h2 class = "h2">5. Akinator</h2>
-        <p><img class = "image" src="https://upload.wikimedia.org/wikipedia/commons/8/81/Akinator.svg" alt = "Akinator Title"></p>
+        <div class = "container">
+            <p><img class = "image" src="https://upload.wikimedia.org/wikipedia/commons/8/81/Akinator.svg" alt = "Akinator Title"></p>
+            <div class = "overlay">
+                <div class = "text">hi</div>
+            </div>
+        </div>
         <h3 class = "h3">What is Akinator?</h3>
         <p class = "p">The Akinator is a guessing character that tries to guess your chosen fictional character with the questions he provided answered.</p>
+        
+        <h1 class = "title">Honorable Mentions</h1>
+
+        <h2 class = "h2">1. RiverStyx</h2>
+        <div class = "container">
+            <p><img class = "image" src="https://riverstyx.com/wp-content/uploads/2019/07/logo.png" alt = "RiverStyx Logo"></p>
+            <div class = "overlay">
+                <div class = "text">hi</div>
+            </div>
+        </div>
+        <h3 class = "h3">What is RiverStyx?</h3>
+        <p class = "p">RiverStyx is a simulation of going through a Greek mythological journey of the Underworld.</p>
+
+        <h2 class = "h2">2. SometimesRedSometimesBlue</h2>
+        <div class = "container">
+            <p><img class = "image" src="https://www.wired.com/images_blogs/photos/uncategorized/2009/02/04/redblue.jpg" alt = "Red and Blue"></p>
+            <div class = "overlay">
+                <div class = "text">hi</div>
+            </div>
+        </div>
+        <h3 class = "h3">What is SometimesRedSometimesBlue?</h3>
+        <p class = "p">SometimesRedSometimesBlue is a wesbite that changes to either red or blue whenever it is refreshed or opened back up.</p>
+
     </body>
 </html>
