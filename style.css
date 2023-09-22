@@ -79,7 +79,7 @@ body{
     display:block;
     position: relative;
     margin-left: 120px;
-    height: 650px;
+    width: 500px;
 }
 .imggen{
     margin-top:160px;
